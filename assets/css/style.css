@@ -10,6 +10,7 @@ body {
     color: #4aaaa5;
     border-bottom: 2px solid #777777;
     padding-bottom: 25px;
+    font-size: 25px
     
 }
 
@@ -84,7 +85,7 @@ p {
     line-height: 35px;
 
 }
-#main-aboutme, #bio-image {
+#main-aboutme, #bio-image #{
     float: left;
     
 }
@@ -101,8 +102,7 @@ p {
 
 
 footer {
-    clear: both;
-    position: absolute;
+    float: left;
     bottom: 0%;
     padding: 10px;
     clear: both;
@@ -111,4 +111,53 @@ footer {
     text-align: center;
     width: 100%;
     border-top: 8px solid #4aaaa5;
+    margin-top: 60px;
+
+}
+
+
+
+
+.firstimage {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.secondimage {
+    position: relative;
+    bottom: 20px;
+    left: 30px;
+
+}
+
+.thirdimage {
+    position: relative;
+    top: 200px;
+    right: 175px;
+}
+
+.fourthimage {
+    position: relative;
+    top: 425px;
+    right: 610px;
+    
+}
+
+.fithimage {
+    position: relative;
+    top: 300px;
+
+}
+
+ #portimages {
+    padding-bottom: 220px; 
+    padding-left: 20px;
+    padding-right: 20px;
+       
+    float: left;
+    width: 960px;
+    background: white;
+    margin-left: 140px;
+    margin-top: 15px;
+
 }
