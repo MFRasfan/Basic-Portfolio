@@ -13,6 +13,9 @@ body {
     font-size: 25px
     
 }
+.about :focus {
+     color: blue;
+ }
 
 
 .name {
@@ -23,7 +26,9 @@ body {
     width: 10%;
     margin-left: 140px;
     color: white;
-    text-align: center
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .headers {
@@ -46,6 +51,8 @@ body {
     margin-left: 550px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    text-decoration: none
+    
 }
 
 .portfolio {
@@ -59,6 +66,7 @@ body {
     font-size: 15px;
     border-left: 1px solid black;
     border-right: 1px solid black;
+    text-decoration: none
 }
 
 .contact {
@@ -70,6 +78,7 @@ body {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+    text-decoration: none
 }
 
 .page {
@@ -161,3 +170,44 @@ footer {
     margin-top: 15px;
 
 }
+input {
+    width: 960px;
+    height: 15px;
+}
+
+label {
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 13px;
+    line-height: 25px;
+
+}
+#contact {
+    float: left;
+    width: 960px;
+    background: white;
+    padding: 10px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+
+#message {
+    width: 960px;
+    height: 200px;
+
+}
+input[type=submit] {
+    float: left;
+    padding: 20px;
+    background-color: #4aaaa5;
+    width: 10%;
+    margin-left: 140px;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  
+
+  }
