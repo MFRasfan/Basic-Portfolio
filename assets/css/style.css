@@ -160,13 +160,14 @@ footer {
 
 .thirdimage {
     position: relative;
-    top: 200px;
-    right: 500px;
+    top: 270px;
+    right: 170px;
 }
 
 .fourthimage {
     position: relative;
-    top: 220px;
+    top: 500px;
+    right: 550px;
     
     
 }
@@ -178,7 +179,7 @@ footer {
 }
 
  #portimages {
-    padding-bottom: 220px; 
+    padding-bottom: 250px; 
     padding-left: 20px;
     padding-right: 20px;
        
