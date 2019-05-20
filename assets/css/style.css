@@ -13,14 +13,10 @@ body {
     font-size: 25px
     
 }
-.about :focus {
-     color: blue;
- }
-
 
 .name {
     float: left;
-    padding: 20px;
+    padding: 12px;
     margin-top: 0px;
     background-color: #4aaaa5;
     width: 10%;
@@ -31,12 +27,15 @@ body {
     font-size: 20px;
 }
 
+
+
 .headers {
  padding-bottom: 70px;
  margin-top: 0;
  background-color: white;
  width: auto;
- border: #cccccc
+ border: #cccccc;
+ font-family: 'Times New Roman', Times, serif
 
 }
   
@@ -53,6 +52,26 @@ body {
     font-size: 15px;
     text-decoration: none
     
+}
+
+.headers :hover {
+    color: blue
+}
+
+.headers :focus {
+
+    color: aquamarine;
+}
+
+.headers :active {
+
+     color: bisque;
+}
+
+.headers ::first-letter {
+    
+    color: #A52A2A;
+    font-size: 200%;
 }
 
 .portfolio {
